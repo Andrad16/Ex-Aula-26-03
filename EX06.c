@@ -1,25 +1,13 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
-    char Letra;
-    sccanf("%c", &Letra);
+int main ()  {
 
-    switch (Letra) {
-        case 'A':
-              printf("Foi digitada a primeira letra da palavra ARANHA");
-        break;
+    int Contador = 1;
 
-        case 'B':
-              printf("Foi digitada a primeira letra da palavra BANCO");
-        break;
-        case 'c':
-              printf("Foi digitada a primeira letra da palavra CACHORRO");
-        break; 
-        default:
-              printf("Não foi digitado nenhuma das letras A, B e C");
-
+    while (Contador <= 5){
+        printf("%d ", Contador);
+        Contador = Contador + 1;
+        
     }
-
     return 0;
 }
